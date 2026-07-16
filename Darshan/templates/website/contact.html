@@ -1,0 +1,74 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href={% static 'stylecontact.css'%}>
+</head>
+<body>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h1>Get In Touch</h1>
+            <p>
+                We'd love to hear from you! Whether you have a question,
+                feedback, or would like to discuss a project, feel free to
+                contact us.
+            </p>
+
+            <div class="info-box">
+                <h3>📍 Address</h3>
+                <p>ITPL, Bengaluru, Karnataka, India</p>
+            </div>
+
+            <div class="info-box">
+                <h3>📧 Email</h3>
+                <p>darshan.kumar@agiletrailblazers.com</p>
+            </div>
+
+            <div class="info-box">
+                <h3>📞 Phone</h3>
+                <p>+91 7090223302</p>
+            </div>
+
+            <div class="info-box">
+                <h3>🕒 Working Hours</h3>
+                <p>Monday - Friday: 7:00 PM - 12:00 AM</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Message</h2>
+
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <div class="input-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
