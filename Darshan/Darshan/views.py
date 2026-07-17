@@ -17,3 +17,7 @@ def contact(request):
 def service(request):
     #return HttpResponse("hello world. you are at Darshan's service page")
     return render(request, 'website/service.html')
+
+def layout(request):
+    #return HttpResponse("hello world. you are at Darshan's service page")
+    return render(request, 'website/layout.html')
